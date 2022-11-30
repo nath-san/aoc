@@ -1,3 +1,5 @@
+node_modules
+
 # Compiled class file
 *.class
 
@@ -29,4 +31,5 @@ hs_err_pid*
 erl_crash.dump
 
 #IntelliJ IDEA
-.idea
+../.idea/
+/.idea

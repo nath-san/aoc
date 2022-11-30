@@ -1,5 +1,5 @@
-FROM alpine:latest
-COPY . /solution
-WORKDIR /solution
+FROM node:17-slim
+COPY . .
+RUN yarn install
 
-CMD ./solution.js
+CMD node index.js
